@@ -13,7 +13,7 @@ interface State {
   reset: () => void
 }
 
-const API_URL = import.meta.env.PROD ? 'https://midu-react-13.surge.sh/' : 'http://localhost:5173/'
+const API_URL = import.meta.env.PROD ? 'https://simulacro-mtc-developercode.vercel.app/' : 'http://localhost:5173/'
 
 export const useQuestionsStore = create<State>()(devtools((set, get) => {
   return {
